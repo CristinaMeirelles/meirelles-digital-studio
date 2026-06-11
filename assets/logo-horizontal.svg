@@ -1,0 +1,21 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="980" height="220" viewBox="0 0 980 220" role="img" aria-label="Meirelles Digital Studio">
+  <defs>
+    <linearGradient id="ciano" x1="0" y1="0" x2="180" y2="180" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00D4FF"/>
+      <stop offset="1" stop-color="#25F0D0"/>
+    </linearGradient>
+    <mask id="recorte">
+      <rect width="180" height="180" fill="white"/>
+      <path fill="black" d="M55 101 L90 128 L125 101 V153 H55 Z"/>
+      <path fill="black" d="M86 64 H94 V98 L90 101 L86 98 Z"/>
+    </mask>
+  </defs>
+  <g transform="translate(18 20)">
+    <path mask="url(#recorte)" fill="url(#ciano)" d="M4 146 V0 L90 64 L176 0 V146 L146 127 V56 L90 98 L34 56 V127 Z"/>
+    <path fill="url(#ciano)" d="M56 151 V99 L90 125 L124 99 V151 Z"/>
+  </g>
+  <g fill="#FFFFFF" font-family="Outfit, Montserrat, Arial, sans-serif">
+    <text x="230" y="92" font-size="54" font-weight="800" letter-spacing="7">MEIRELLES</text>
+    <text x="233" y="143" font-size="24" font-weight="600" letter-spacing="9" fill="#00D4FF">DIGITAL STUDIO</text>
+  </g>
+</svg>
