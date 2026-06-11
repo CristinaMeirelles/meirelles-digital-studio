@@ -1,0 +1,15 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Meirelles Digital Studio">
+  <defs>
+    <linearGradient id="ciano" x1="58" y1="52" x2="454" y2="460" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00D4FF"/>
+      <stop offset="1" stop-color="#25F0D0"/>
+    </linearGradient>
+    <mask id="recorte">
+      <rect width="512" height="512" fill="white"/>
+      <path fill="black" d="M156 292 L256 369 L356 292 V440 H156 Z"/>
+      <path fill="black" d="M244 186 H268 V283 L256 292 L244 283 Z"/>
+    </mask>
+  </defs>
+  <path mask="url(#recorte)" fill="url(#ciano)" d="M12 421 V2 L256 186 L500 2 V421 L416 367 V161 L256 283 L96 161 V367 Z"/>
+  <path fill="url(#ciano)" d="M160 435 V287 L256 361 L352 287 V435 Z"/>
+</svg>
